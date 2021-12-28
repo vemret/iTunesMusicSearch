@@ -26,23 +26,7 @@ class ViewController: UIViewController, UISearchResultsUpdating, UITableViewDele
         tableView.delegate = self
         tableView.dataSource = self
         
-        
-//        fetchAlbums(albumName: "jack")
-        
-        
-//
-//        WebServies().requesData(url: url) { (albums) in
-//            if let albums = albums {
-//                print(albums)
-//            }
-//        }
-        
-        
-        
-    
-        
-        
-        
+      
         
         navigationItem.title = "Music Search App."
         searchController.searchResultsUpdater = self
@@ -81,9 +65,6 @@ class ViewController: UIViewController, UISearchResultsUpdating, UITableViewDele
         }
         
     }
-    
-    
-    
     
     
     
